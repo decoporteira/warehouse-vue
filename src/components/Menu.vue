@@ -1,9 +1,18 @@
 <template>
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/warehouses">Warehouses</router-link> | 
-      <router-link to="/warehouse/new">Cadastrar Warehouses</router-link> | <router-link to="/about">Sobre</router-link>
-    </nav>
+    <v-container>
+        <v-col>
+            <v-toolbar flat color="grey lighten-4">
+                <v-toolbar-title>Warehouses</v-toolbar-title>
+                <v-spacer></v-spacer>
+                <nav>
+                    <v-btn text color="grey" to="/">Home</v-btn> 
+                    <v-btn text color="grey" to="/warehouses">Warehouses</v-btn> 
+                    <v-btn text color="grey" to="/warehouse/new">Cadastrar Warehouses</v-btn> 
+                    <v-btn text color="grey" to="/about">Sobre</v-btn>
+                </nav>
+            </v-toolbar>
+        </v-col>
+    </v-container>
 </template>
 
 <script>
