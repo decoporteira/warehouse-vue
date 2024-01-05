@@ -6,8 +6,8 @@
             <v-form v-on:submit.prevent>  
                 <v-text-field label="Nome" v-model="form.name"></v-text-field>
                 <v-text-field label="Código" v-model="form.code" ></v-text-field>
-                <v-text-field label="Nome" v-model="form.city" ></v-text-field>
                 <v-text-field label="Endereço" v-model="form.address"></v-text-field>
+                <v-text-field label="Cidade" v-model="form.city"></v-text-field>
                 <v-text-field label="CEP" v-model="form.cep" ></v-text-field>
                 <v-text-field label="Área em m2" v-model="form.area" ></v-text-field>
                 <v-textarea label="Descrição" v-model="form.description"></v-textarea>
